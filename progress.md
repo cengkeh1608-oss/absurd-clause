@@ -90,8 +90,22 @@ no stated moral.
 **D2 (126 chars): "Section 14: You waive your right to a trial by jury, and accept instead a trial by three (3) raccoons in a small claims court."**
 
 ## Build
-- (pending) repo + commit + push — see below when done.
-- Flags execution-risk: (pending — 0 so far)
+- Repo: https://github.com/cengkeh1608-oss/absurd-clause — HEAD == origin/master verified
+- Commit entry: `d8b509e7f611ef3322bd896a45b34b3faf12d309` (root `8ac8caa` ONLY .makefun,
+  2nd commit `037bb7d` LICENSE MIT, entry commit on top)
+- Anchor: `makefun anchor 8ac8caadbd4cc4b359612caaf892257b9cd09aa5 round 34279079`
+- `main.ts` written fresh from spec in 2 write/edit messages (write + gate-validation
+  edit that really changes content). No process.env/eval/dynamic import. Output
+  /output/entry.txt byte-identical 2x from different cwds, sha256
+  `370aae70dec8d03a560d2ed2526e4f1710e677fef3b8217ccfbc676c93dacacf`, 127 bytes
+  (126 chars + newline), inside the 1–200 gate.
+- `git ls-tree HEAD`: `.makefun`, `LICENSE`, `drafts.md`, `main.ts`, `package.json`, `progress.md`.
+- Flags execution-risk: 0.
+- Draft-length lesson: my first char counts in drafts.md were estimates and wrong
+  (A1 claimed 118, actual 133) — all 30 re-measured with python and the file corrected;
+  max is 149, all ≤200, all 30 distinct. Also caught a duplicate draft (raccoon text
+  entered as both A2 and D2) during drafting and fixed it before the tournament
+  (A2 = goat clause instead).
 
 ## Notes
 - Service restarted mid-research (fetch via urllib failed IncompleteRead — used curl
